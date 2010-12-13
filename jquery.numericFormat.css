@@ -1,0 +1,28 @@
+/*
+ * jQuery Numeric Format Plugin
+ * http://github.com/xyu/jquery-numericFormat
+ *
+ * Copyright (c) 2010 Xiao Yu, @HypertextRanch
+ * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+table td.numeric {
+  text-align:right;
+}
+
+table td.numeric .pos .parentheses,
+table td.numeric .zero .parentheses {
+  opacity:0;
+}
+
+table td.numeric .neg {
+  color:#85211F;
+}
+
+table td.numeric .pos {
+  color:#9CA354;
+}
+
+table td.numeric .zero {
+  color:#999999;
+}
